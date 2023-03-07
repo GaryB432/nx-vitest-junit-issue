@@ -16,7 +16,8 @@
       "outputs": ["coverage/libs/my-lib"],
       "options": {
         "passWithNoTests": true,
-        "reportsDirectory": "../../coverage/libs/my-lib"
+        "reportsDirectory": "../../coverage/libs/my-lib",
+        "reporters": ["junit"]
       }
     }
   },

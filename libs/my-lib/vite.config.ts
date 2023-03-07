@@ -24,7 +24,6 @@ export default defineConfig({
   test: {
     globals: true,
     outputFile: '../../junit/my-lib',
-    reporters: ['junit'],
     cache: {
       dir: '../../node_modules/.vitest',
     },
